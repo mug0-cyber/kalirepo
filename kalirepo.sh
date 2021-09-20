@@ -3,3 +3,5 @@ apt update
 apt upgrade -y
 sudo dpkg -i --force-overwrite /var/cache/apt/archives/util*
 apt upgrade -y
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/kali-*
+apt upgrade -y
